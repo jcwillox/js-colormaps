@@ -1,0 +1,9 @@
+{
+  "include": ["js-colormaps.js"],
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationMap": true
+  }
+}

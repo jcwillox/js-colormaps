@@ -4,6 +4,10 @@
   "description": "Matplotlib colormaps made available in JavaScript",
   "license": "MIT",
   "main": "js-colormaps.js",
+  "types": "js-colormaps.d.ts",
+  "scripts": {
+    "types": "tsc"
+  },
   "homepage": "https://github.com/timothygebhard/js-colormaps#readme",
   "repository": {
     "type": "git",
@@ -11,5 +15,8 @@
   },
   "bugs": {
     "url": "https://github.com/timothygebhard/js-colormaps/issues"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.3"
   }
 }
