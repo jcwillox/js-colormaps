@@ -181,12 +181,12 @@ export const winter_r = partial('winter_r');
 export function evaluate_cmap(x, name, reverse) {
   // Ensure that the value of `x` is valid (i.e., 0 <= x <= 1)
   if (!(0 <= x <= 1)) {
-    alert('Illegal value for x! Must be in [0, 1].')
+    throw new Error('Illegal value for x! Must be in [0, 1].');
   }
 
   // Ensure that `name` is a valid colormap
   if (!(name in data)) {
-    alert('Colormap ' + name + 'does not exist!');
+    throw new Error(`Colormap '${name}' does not exist!`);
   }
 
   // We can get the reverse colormap by evaluating colormap(1-x)
