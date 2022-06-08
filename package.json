@@ -1,6 +1,5 @@
 {
   "name": "js-colormaps",
-  "version": "1.0.0",
   "description": "Matplotlib colormaps made available in JavaScript",
   "license": "MIT",
   "main": "js-colormaps.js",
