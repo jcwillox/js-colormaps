@@ -1,0 +1,16 @@
+{
+  "name": "js-colormaps",
+  "version": "1.0.0",
+  "description": "Matplotlib colormaps made available in JavaScript",
+  "license": "MIT",
+  "main": "js-colormaps.js",
+  "types": "js-colormaps.d.ts",
+  "homepage": "https://github.com/timothygebhard/js-colormaps#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timothygebhard/js-colormaps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timothygebhard/js-colormaps/issues"
+  }
+}
